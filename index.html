@@ -3,12 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shopping Cart</title>
+    <title>Shopping Cart with Promo Code</title>
     <link rel="stylesheet" href="style.css">
-    <head>
-        <link rel="icon" href="./favicon_io/favicon-32x32.png" type="image/x-icon">
-    </head>
-    
+    <link rel="icon" href="./favicon_io/favicon-32x32.png" type="image/x-icon">
 </head>
 <body>
     <div class="container">
@@ -19,6 +16,16 @@
             <h2>Your Cart</h2>
             <div id="cart-items"></div>
             <div id="cart-total"></div>
+            <div id="cart-discount"></div>
+            <div id="cart-final-total"></div>
+
+            <div id="promo-code-section">
+                <h3>Apply Promo Code</h3>
+                <input type="text" id="promo-code" placeholder="Enter promo code">
+                <button id="apply-promo">Apply</button>
+                <p id="promo-message"></p>
+            </div>
+
             <button id="clear-cart">Clear Cart</button>
             <button id="checkout">Checkout</button>
         </div>
