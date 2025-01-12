@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Samsung Galaxy S24 Ultra",
+        "description": "The Samsung Galaxy S24 Ultra features a 6.8-inch AMOLED display, a 200MP camera, and top-tier performance with the latest processors. It offers a sleek design, AI enhancements, and 5G support.",
+        "price": 94000,
+        "image": "img/s24u.jpg"
+    },
+    {
+        "id": 2,
+        "name": "iPhone 16 Pro Max",
+        "description": "The iPhone 16 Pro Max boasts a larger, ProMotion OLED display, powerful A17 Bionic chip, and advanced camera system with improved low-light capabilities. It combines sleek design with top-tier performance and 5G support, offering an exceptional user experience.",
+        "price": 115000,
+        "image": "img/i16.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Pixel 9 Pro XL",
+        "description": "The Google Pixel 9 Pro XL features a large OLED display, Google’s Tensor chip, and an advanced camera system for high-quality photos. It offers 5G connectivity and a sleek design.",
+        "price": 89000,
+        "image": "img/p9.jpg"
+    }
+]
